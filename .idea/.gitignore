@@ -9,3 +9,4 @@
 
 # Sonarlint
 /sonarlint/*
+/.idea.koi.dir/.idea/sonarlint/*
