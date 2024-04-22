@@ -1,0 +1,21 @@
+{
+  "name": "koi",
+  "version": "1.0.0",
+  "description": "Koi is a cheeky assistant for your code review process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.7",
+    "@types/q": "^1.5.8",
+    "sync-request": "^6.1.0"
+  }
+}
