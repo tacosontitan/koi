@@ -1,3 +1,6 @@
+/**
+ * Represents options for configuring the assistant.
+ */
 export interface AssistantOptions
 {
     /**
