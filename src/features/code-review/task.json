@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "id": "a74c4f28-89b5-4c53-ac7c-3bc86a5c70ad",
+  "name": "koi-review",
+  "friendlyName": "🐟 Koi's Code Review",
+  "description": "Performs a cheeky code review.",
+  "helpMarkDown": "",
+  "category": "Utility",
+  "author": "tacosontitan",
+  "version": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 0
+  },
+  "instanceNameFormat": "Echo $(samplestring)",
+  "inputs": [
+    {
+      "name": "samplestring",
+      "type": "string",
+      "label": "Sample String",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "A sample string"
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": "index.js"
+    }
+  }
+}
